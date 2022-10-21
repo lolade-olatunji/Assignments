@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="./styles/about.css" />
+</head>
+
+<body>
+  <header id="about">
+    <main class="main-section2">
+
+      <div class="container-about">
+
+           <nav>
+      <img src="./assets/lolade logo (1).svg" class="logo">
+
+      <ul>
+        <li><a class="home-ho" href="index.html">Home</a></li>
+        <li><a class="about-ho" href="about.html">About</a></li>
+    <li><a class="projects-ho" href="project.html">projects</a></li>
+<li><a class="service-ho" href="service.html">services</a></li>
+        <li><a class="contact-ho" href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+        
+        <div class="row">
+
+          <div class="about-col-1">
+            <img src="assets/desktop img light theme.svg" class="background-about">
+          </div>
+
+          <div class="about-col-2">
+
+            <h1 class="about-me">About Me</h1>
+
+            <div class="body-about">
+              <div class="body-about1">I am an aspiring software dev based in Abuja, Nigeria.</div>
+              <div class="body-about2">I build mobile, web and desktop applications and</div>
+              <div class="body-about3">currently, i am focused on taking my frontend</div>
+              <div class="body-about4">skill to the next level.</div>
+            </div>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills/hobbies</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>App Development</span><br>Building android/iOS apps </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2022-Current</span><br>currently under the zuri Scholarship Program cohort II</li>
+                <li><span>2019-2021</span><br>Junior dev at start app LLC.</li>
+                <li><span>2017-2019</span><br>UI/UX Design at ET institute. </li>
+                <li><span>2016-2017</span><br>Intership at eKart ecommerce. </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020</span><br>Designing Web/App Interfaces</li>
+                <li><span>2019</span><br>Bsc. at FUT Minna.</li>
+                <li><span>2020</span><br>BBA from ISM Bangalore </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+    </main>
+  </header>
+
+  <script src="./script/about.js"></script>
+</body>
+
+</html>

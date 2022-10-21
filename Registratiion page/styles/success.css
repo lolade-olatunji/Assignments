@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+  :root {
+      --primary-teal: #35A7AB;
+      --primary-red: #F94F46;  
+      --secondary-cream: #FFF1DC;
+      --neutral-black: #2D0200;
+      --neutral-gray-800: #80726D;
+      --neutral-gray-400: #F0E9DE; 
+      --neutral-gray-200: #F7F4EE;
+      --neutral-white: #FFFFFF;
+      --leaf-green: #37E249;
+      --deep-green: #42b74e;
+      --hover-green: #72c07a;
+      }
+  *{
+      box-sizing: border-box;
+  }
+  
+  body{
+      font-family:"inter", sans-serif;
+  }
+  
+  .container{
+      padding: 10px 10px;
+  }
+  .main-section{
+      text-align: center;
+  }
+  h1{
+      margin-top: 100px;
+      font-size: 40px;
+      font-family: montserrat;
+      font-weight: 700;
+      color: var(--leaf-green) ;
+  }
+  .sub{
+      margin-top: 50px;
+      font-size: 30px;
+      font-family: montserrat;
+      color: var(--leaf-green);
+  }
+  .suc-i{
+      margin-top: 100px;
+  }
+  .success-icon{
+      width: 10%;
+  }
+  .mid-text{
+      margin-top: 100px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: sans-serif;
+  }
+  .log{
+      
+        border: none;
+        border-radius: 4px;
+        width: 25%;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 40px;
+        text-transform: uppercase;
+        padding: 12px 24px;
+        margin-top: 50px;
+   }
+  
+  .login{
+      background-color: var(--deep-green);
+      color: #FFFFFF;
+      transition: background-color 0.25s ease;
+  }
+  
+  .login:hover {
+       background-color: var(--hover-green);
+       color: #FFFFFF;
+       cursor: pointer;
+  }
+  .login:active{
+        transform:scale(0.98);
+    }

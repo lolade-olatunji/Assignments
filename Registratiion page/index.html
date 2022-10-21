@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>registration page</title>
+  <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="main-section">
+    <div class="container background-sign-up">
+      <header class="header text-center">
+        <img src="./assets/Logo.svg" alt="Logo" />
+      </header>
+
+
+      <div class="form-section">
+        <div class="top-info text-center">
+          <h6 class="tagline">Register-page</h6>
+          <h1 class="heading-one">Create an Account.</h1>
+          <p class="body-one">Welcome! sign-up quickly</p>
+        </div>
+
+        <hr />
+
+
+        <form class="form">
+          <div class="form-inline">
+            <div class="form-control">
+              <label class="form-label" for="first-name">First Name</label>
+              <input class="form-input" type="text" id="first-name" />
+            </div>
+
+
+            <div class="form-control">
+              <label class="form-label" for="Last-Name">Last Name</label>
+              <input class="form-input" type="text" id="Last-Name" />
+            </div>
+          </div>
+
+          <div class="form-inline">
+            <div class="form-control">
+              <label class="fom-label" for="Date of birth">Date-of-birth</label>
+              <input class="form-input" type="date" id="Date of birth" />
+            </div>
+
+            <div class="form-control">
+              <label class="form-label" for="Fav-color">Fav color</label>
+              <input class="form-input" type="color" id="Fav-color" />
+            </div>
+          </div>
+
+          <div class="form-inline">
+            <div class="form-control">
+              <label class="form-label" for="email">Email Address</label>
+              <input class="form-input" type="email" id="email" required />
+            </div>
+
+            <div class="form-control">
+              <label class="form-label" for="telephone">Phone-number</label>
+              <input class="form-input" type="tel" id="telephone" />
+            </div>
+          </div>
+
+          <div class="form-control">
+            <label class="form-label" for="id_gender">Gender</label>
+            <select class="form-input" name="gender" id="id_gender">
+              <option selected value="0">Select gender</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+            </select>
+          </div>
+
+
+          <div class="form-control">
+            <label class="form-label" for="Password">Password</label>
+            <input class="form-input" type="password" id="Password" required />
+            <div>
+
+            </div>
+
+          </div>
+
+          <button type="submit" formaction="success.html" class="btn btn-primary">Create Account</button>
+
+          <p class="body-two text-center">
+            I have read and agree to the <a href="./success.html">Terms of Service</a>.
+          </p>
+        </form>
+      </div>
+
+      <div class="account-select">
+        <p class="body-two text-light text-center">
+          Aleady have an account? <a href="login.html">Sign in</a>
+        </p>
+      </div>
+
+      <div class="text-center">
+        <img class="illustration-sign-up" src="./assets/sign-up.png" alt="sign up" />
+      </div>
+    </div>
+  </section>
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
